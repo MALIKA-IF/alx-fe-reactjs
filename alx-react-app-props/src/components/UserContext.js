@@ -3,9 +3,9 @@ import { createContext } from "react";
 export const context = createContext();
 
 
-function usercontext() {
+function UserContext() {
   const data = useContext(context);
   return <div>{data}</div>;
 }
 
-export default usercontext;
+export default UserContext;
