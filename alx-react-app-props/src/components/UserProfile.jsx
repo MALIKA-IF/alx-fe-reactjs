@@ -1,9 +1,17 @@
-const UserProfile = (props) => {
+
+
+import { useContext } from "react";
+
+
+
+function UserProfile() {
+
+const username = useContext(UserContext)
    return (
      <div>
-       <h2>{props.name}</h2>
-       <p>Age: {props.age}</p>
-       <p>Bio: {props.bio}</p>
+       <h2>{username.name}</h2>
+       <p>Age: {username.age}</p>
+       <p>Bio: {username.bio}</p>
      </div>
    );
  };
