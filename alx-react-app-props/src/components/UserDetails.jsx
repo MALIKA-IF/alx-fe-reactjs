@@ -1,4 +1,4 @@
-import {}
+
 
 function UserDetails({ userData }) {
   return (

@@ -7,7 +7,7 @@ import Header from './components/Header'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
 import UserProfile from './components/UserProfile'
-import UserContext from './UserContext'
+import context from './UserContext'
 
 
 
@@ -36,16 +36,13 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-       <UserContext.Provider value={userData}>
+       <context.Provider value={userData}>
        <WelcomeMessage />
        <Header />
        <MainContent />
        <Footer />
        <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
-       
-   
-     
-    </UserContext.Provider>
+    </context.Provider>
     
     </>
   )

@@ -1,14 +1,6 @@
+import { createContext } from "react";
 
-const usercontext = React.createContext();
-
-function UserContext(){
-    
-
-  const data = useContext(DataContext);
-  return <div>{data}</div>;
-
-}
+export const context = createContext();
 
 
-export default UserContext;
 
