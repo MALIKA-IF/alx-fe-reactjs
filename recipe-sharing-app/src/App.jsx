@@ -3,8 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import RecipeList from './Components'
-import { AddRecipeForm } from './Components/AddRecipeForm'
+import RecipeList from './components'
+import { AddRecipeForm } from './components'
 
 
 
